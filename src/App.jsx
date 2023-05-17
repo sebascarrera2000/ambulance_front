@@ -8,7 +8,8 @@ import {
 
 // Import pages
 import { Home } from './pages/Home'
-import { About } from './pages/About'
+import { About } from './pages/Dispatch'
+import { HomeMedic } from './pages/HomeMedic'
 
 // TIENE QUE LLAMAR LOS COMPONENTES ACÁ
 const router = createBrowserRouter([
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "about",
     element: <About/>,
+  },
+  {
+    path: "homemedic",
+    element: <HomeMedic/>,
   },
 ]);
 
